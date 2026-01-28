@@ -286,9 +286,10 @@ function App() {
           initial={{ opacity: 0, y: -12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-3xl font-bold tracking-tight text-center"
+          className="text-3xl font-bold tracking-tight text-center text-white drop-shadow-lg"
+          style={{ textShadow: '0 2px 8px rgba(0,0,0,0.4)' }}
         >
-          Weather Now
+          Cloudify
         </motion.h1>
 
         <motion.form
